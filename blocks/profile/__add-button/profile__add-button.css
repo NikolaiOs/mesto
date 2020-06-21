@@ -28,5 +28,6 @@
     position: static;
     min-width: 80%;
     margin: 36px 20px 0;
+    background-size: contain;
   }
 }
