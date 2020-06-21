@@ -7,7 +7,7 @@
   background-image: url(../../../images/Add-Button.svg);
   background-color: #000000;
   background-repeat: no-repeat;
-  background-position: 50%;
+  background-size: cover;
   border: 2px solid #FFFFFF;
   box-sizing: border-box;
   border-radius: 2px;
