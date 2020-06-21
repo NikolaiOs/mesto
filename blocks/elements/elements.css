@@ -8,11 +8,17 @@
 }
 
 @media screen and (max-width: 980px) {
-  .elements{
+  .elements {
     padding: 36px 0 0;
-    grid-template-columns: repeat(1, 282px);
+    grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
     grid-gap: 20px;
     justify-content: center;
     min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 588px) {
+  .elements {
+    grid-template-columns: repeat(1, auto);
   }
 }
